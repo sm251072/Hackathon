@@ -13,49 +13,45 @@ const icons = {
 
 const utilities = {
     id: 'utilities',
-    title: 'Utilities',
+    title: 'Store',
     type: 'group',
     children: [
         {
             id: 'util-typography',
-            title: 'Typography',
+            title: 'Theft Protection',
             type: 'item',
             url: '/utils/util-typography',
-            icon: icons.IconTypography,
             breadcrumbs: false
         },
         {
             id: 'util-color',
-            title: 'Color',
+            title: 'Mobile Assessiblity',
             type: 'item',
             url: '/utils/util-color',
-            icon: icons.IconPalette,
             breadcrumbs: false
         },
         {
             id: 'util-shadow',
-            title: 'Shadow',
+            title: 'Facial Recognition',
             type: 'item',
             url: '/utils/util-shadow',
-            icon: icons.IconShadow,
             breadcrumbs: false
         },
         {
             id: 'icons',
-            title: 'Icons',
+            title: 'Customer Personalization',
             type: 'collapse',
-            icon: icons.IconWindmill,
             children: [
                 {
                     id: 'tabler-icons',
-                    title: 'Tabler Icons',
+                    title: 'Past Purchases',
                     type: 'item',
                     url: '/icons/tabler-icons',
                     breadcrumbs: false
                 },
                 {
                     id: 'material-icons',
-                    title: 'Material Icons',
+                    title: 'Purchases from Camera Feed',
                     type: 'item',
                     url: '/icons/material-icons',
                     breadcrumbs: false
